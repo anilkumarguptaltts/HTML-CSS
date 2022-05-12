@@ -5,18 +5,18 @@ for (var i = 0; i < names.length; i++) {
   var firstLetter = names[i].charAt(0).toLowerCase();
 
   if (firstLetter === 'j') {
-    byePrint(names[i]);
+    byeSpeaker(names[i]);
   } else {
-    helloPrint(names[i]);
+    helloSpeaker(names[i]);
   }
 }
 
-function byePrint(name) {
+function byeSpeaker(name) {
   console.log("Hello" + " " + name);
 }
 
 
-function helloPrint(name) {
+function helloSpeaker(name) {
   console.log("Good Bye" + " " + name);
 }
 
